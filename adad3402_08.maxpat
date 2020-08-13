@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 1213.0, 610.0 ],
+		"rect" : [ 26.0, 84.0, 1213.0, 610.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1007.036624000000074, 257.831334829330444, 150.0, 20.0 ],
+					"text" : "visualizer"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -54,7 +65,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 41.0, 84.0, 806.0, 480.0 ],
+						"rect" : [ -21292.0, -21249.0, 806.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -925,7 +936,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 41.0, 84.0, 496.0, 511.0 ],
+						"rect" : [ 41.0, 84.0, 701.0, 511.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -952,7 +963,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1528,18 +1538,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 26.125, 32.5, 226.0, 75.0 ],
-					"text" : "Intermediate Code:\n1) Conversion from ASCII code to distortions in default (cosine wave) sound\n2) Connecting 1) to the visualizer"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-99",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -1589,12 +1587,12 @@
 				"box" : 				{
 					"bgcolor" : [ 0.894117647058824, 0.545098039215686, 0.545098039215686, 0.0 ],
 					"id" : "obj-135",
-					"linecount" : 6,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.125, 121.063828706741333, 252.0, 89.0 ],
-					"text" : "Procedure:\n1. Type message in provided box\n2. Hit big button\n3. Repeat\n\nresult is in mesaage box right at the bottom",
+					"patching_rect" : [ 31.307391405105591, 46.365030765533447, 252.0, 75.0 ],
+					"text" : "Procedure:\n1. Type message in provided box\n2. Hit big button\n3. Repeat\n",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 
